@@ -1,0 +1,23 @@
+x link our files
+build the html of the site and the input
+present the info from the api on the dom
+    -book cover author and title
+    -build helper functions tp generate the elements and then append them
+access the library api
+    x hardcode the category first
+    x postman
+    - dig out the cover title and author
+    -creating the fetch
+    - write a JS function that takes in a string and runs the api request
+
+x what fields we want from the api
+    function that returns the random book
+        - is ebooks_count the real count? if so use it 
+        -use works.length as the max in our random function
+        - Math.floor(Math.random() * works.length)
+        - works[randomIndex]
+
+    - wire up the input later
+        - add event listener to the button:
+            - grab the input via a query selector and get its text
+            - pass it in to the search function
